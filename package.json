@@ -11,6 +11,8 @@
   },
   "dependencies": {
     "react": "^19.2.5",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "react-dom": "^19.2.5"
   },
   "devDependencies": {
